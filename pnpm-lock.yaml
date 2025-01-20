@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.2
         version: 2.2.2(eslint@8.57.1)(typescript@5.7.3)
       '@types/node':
-        specifier: ^22.10.6
-        version: 22.10.6
+        specifier: ^22.10.7
+        version: 22.10.7
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -47,7 +47,7 @@ importers:
         version: 6.21.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.2
-        version: 3.7.2(vite@6.0.7(@types/node@22.10.6))
+        version: 3.7.2(vite@6.0.7(@types/node@22.10.7))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -62,7 +62,7 @@ importers:
         version: 5.7.3
       vite:
         specifier: ^6.0.7
-        version: 6.0.7(@types/node@22.10.6)
+        version: 6.0.7(@types/node@22.10.7)
 
 packages:
 
@@ -472,8 +472,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.10.6':
-    resolution: {integrity: sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==}
+  '@types/node@22.10.7':
+    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
 
   '@types/prop-types@15.7.9':
     resolution: {integrity: sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==}
@@ -1989,7 +1989,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.10.6':
+  '@types/node@22.10.7':
     dependencies:
       undici-types: 6.20.0
 
@@ -2169,10 +2169,10 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.7(@types/node@22.10.6))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.7(@types/node@22.10.7))':
     dependencies:
       '@swc/core': 1.7.26
-      vite: 6.0.7(@types/node@22.10.6)
+      vite: 6.0.7(@types/node@22.10.7)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -3429,13 +3429,13 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  vite@6.0.7(@types/node@22.10.6):
+  vite@6.0.7(@types/node@22.10.7):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
       rollup: 4.29.1
     optionalDependencies:
-      '@types/node': 22.10.6
+      '@types/node': 22.10.7
       fsevents: 2.3.3
 
   which-boxed-primitive@1.0.2:
